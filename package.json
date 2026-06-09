@@ -1,0 +1,10 @@
+{
+  "name": "x402-approval-guard",
+  "version": "1.0.0",
+  "description": "Guard AI-agent ERC20 approvals via contract-guard (x402) before signing.",
+  "type": "module",
+  "bin": { "approval-guard": "./index.mjs" },
+  "scripts": { "start": "node index.mjs" },
+  "license": "MIT",
+  "dependencies": { "viem": "^2.21.0", "x402-fetch": "^1.2.0" }
+}
